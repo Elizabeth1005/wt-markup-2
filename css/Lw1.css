@@ -1,0 +1,317 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+
+
+.container1 {
+        background: #2F303A;
+}
+.container2 {    
+        background: #F5F4FA;
+}
+.container3 {
+        background: #2F303A;
+}
+
+.dev{
+        background-color: #2196F3;
+        font-family: 'Roboto', sans-serif;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 0.78px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 100%;
+        background-image: linear-gradient(
+                90deg,
+                #2196F3 37%,
+                #000 30%,
+                #000 70%
+        );
+}
+.co{
+    
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.28px; 
+}
+
+.contact{
+        color: #757575;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 0.28px;
+}
+nav ul li{
+        background-color: #212121;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 0.28px;
+        list-style: none;     
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.zagol{
+        color: #FFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 60px;
+        letter-spacing: 2.64px;
+        text-transform: uppercase;
+        
+}
+.zakaz{
+        color: #FFF;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 30px;
+        letter-spacing: 0.96px;
+
+        width: 200px;
+        height: 50px;
+
+        border-radius: 4px;
+        background: #2196F3;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.button-icon:hover{
+        background-color: #2196F3;
+}
+
+.icons{
+        border-radius: 4px;
+        background: #F5F4FA;
+}
+.tex{
+        
+        list-style-type: none;
+        width: 250px;
+        height: 85px;
+        display: inline-block;
+}
+.zagdop{
+        color: #212121;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 40px;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+}
+.napol{
+        color: #757575;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 0.42px;
+}
+
+.work{
+        background-color: #212121;
+        font-family: 'Roboto', sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 1.08px;
+        -webkit-background-clip: text;
+        
+}
+.foto{
+        display: inline-block;
+        list-style-type: none;
+        border-radius: 10px;
+        overflow: hidden;
+}
+
+.people{
+        background: #ffffff;
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.icons1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+        flex-shrink: 0;
+        background: #fff;
+        border-radius: 100%;
+        overflow: hidden;
+}
+.icons1:hover{
+        background-color: #2196F3;
+}
+
+
+.imay{
+        color: #212121;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 0.48px;
+}
+.spec{
+        color: #757575;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0.48px;
+}
+
+.dev1 {
+        background-color: #2196F3;
+        font-family: 'Roboto', sans-serif;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 0.78px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 100%;
+        background-image: linear-gradient(
+                90deg,
+                #2196F3 37%,
+                #fff 30%,
+                #fff 70%);
+}
+
+.Xark{
+        color: #FFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 0.42px;
+        transform: translate(0px, 20px);
+}
+.dan{
+        display: flex;
+        flex-direction: column;
+        color: rgba(255, 255, 255, 0.60);
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 0.42px;
+        transform: translate(0px, 20px);
+}
+.dan1 {
+        color: rgba(255, 255, 255, 0.60);
+        text-decoration: none;
+}
+
+.socseti{
+        color: #FFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 0.48px;
+        text-transform: uppercase;
+        
+}
+.icons2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+        flex-shrink: 0;
+        background: rgba(255, 255, 255, 0.10);
+        border-radius: 100%;
+        overflow: hidden;
+        margin: 0px 10px 30px 0px;
+        transform: translate(0px, 25px);
+}
+.icons2:hover {
+        background-color: #2196F3;
+}
+
+.spec1 {
+        
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0.48px;
+        transform: translate(30px, 15px);
+        display: flex;
+        width: 47px;
+        flex-direction: column;
+        justify-content: center;
+}
+.ramka{
+        width: 358px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.30);
+        background: rgba(33, 150, 243, 0.00);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        transform: translate(0px, 25px);
+}
+.zakaz1 {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 30px;
+        letter-spacing: 0.96px;
+
+        width: 200px;
+        height: 50px;
+        flex-shrink: 0;
+
+        border-radius: 4px;
+        background: #2196F3;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        margin: -25px 0px 0px 370px;
+        
+}
+.tg{
+        margin: 0px 0px 0px 10px;    
+}
